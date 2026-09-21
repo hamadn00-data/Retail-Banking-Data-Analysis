@@ -1,0 +1,16 @@
+transaction_code,label,account_type,transaction_type,channel
+MER_PAY,Merchant Payment,Savings,Debit,"MobileApp,OnlineBanking"
+CSH_WDL,Cash Withdrawal,Savings,Debit,"ATM,Branch"
+CSH_DEP,Cash Deposit,Savings,Credit,"ATM,Branch"
+IBK_OUT,Interbank Transfer Out,Savings,Debit,InterbankPortal
+IBK_IN,Interbank Transfer In,Savings,Credit,InterbankPortal
+SYS_FEE,Annual Maintenance Fee,Savings,Debit,System
+LN_DISB,Loan Disbursement,Loan,Credit,Branch
+LN_DISB_CR,Loan Disbursement Credit,Savings,Credit,Branch
+LN_PMNT,Loan Repayment,Loan,Debit,Branch
+LN_PMNT_DR,Loan Repayment Debit,Savings,Debit,Branch
+LN_INT_CHG,Loan Interest Charge,Loan,Debit,System
+FD_OPEN,FD Opening Credit,FixedDeposit,Credit,Branch
+FD_OPEN_DR,FD Opening Debit,Savings,Debit,Branch
+FD_MAT_CHG,FD Maturity Liquidation,FixedDeposit,Debit,System
+FD_MAT_CR,FD Maturity Credit,Savings,Credit,System
